@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test-extension - Options</title>
+  <link rel="stylesheet" href="options.css">
+  <% if (NODE_ENV === 'development') { %>
+  <!-- Load some resources only in development environment -->
+  <% } %>
+</head>
+<body>
+  <div id="app">
+    <h1 class="title">Options</h1>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

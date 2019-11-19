@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+#app {
+    overflow: hidden;
+    background: #ffdb4d;
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+    .title {
+      text-align: center;
+      margin-top: 0;
+    }
+    .btn {
+      background: #e40030;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      display: inline-block;
+      cursor: pointer;
+    }
+}
